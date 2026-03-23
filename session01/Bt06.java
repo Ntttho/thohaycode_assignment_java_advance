@@ -21,6 +21,7 @@ public class Bt06 {
     public static void main(String[] args) {
         try {
             User s = new User("",-1);
+            System.out.println(s.toString());
         } catch (IllegalArgumentException e) {
             Logger.logError("Loi du lieu dau vao: " + e.getMessage());
         } catch (Exception e){
